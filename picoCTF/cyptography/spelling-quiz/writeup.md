@@ -20,6 +20,10 @@ and none greater than that.
 
 Now, a valid 25 letter word in english is rare. Matching a few patterns (you can guess the patterns by my obvious choices in `script.py`), I was able to decode the flag upto an understandble limit.
 
+A list of 25 letter words can be found here,
+
+        https://www.litscape.com/words/length/25_letters/25_letter_words.html
+
 The general idea was to leverage the fact that the words in study-guide are in english and find some words high in information (rare) and use them to get the decoding_dictionary.
 
 
