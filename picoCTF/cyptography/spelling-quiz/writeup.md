@@ -9,7 +9,7 @@ They have also provided us a `study-guide.txt` file. Using
     cat -n study-guide.txt
 we can see that it has around 200,000 words, all jumbled up. This is because `encrypt.py` is encrypting this file as well.
 
-Since, the dictionary is randomly generated, there is no way to run brute-force or frequency attacks (in fact I did try a brute-force attack, which failed horribly... have given the script, but don't run it)
+Since, the dictionary is randomly generated, there is no way to run brute-force or frequency attacks (in fact I did try a brute-force attack, which failed horribly... )
 
 The problem description clearly mentions that this `study-guide.txt` is actually a list of real english words.
 
