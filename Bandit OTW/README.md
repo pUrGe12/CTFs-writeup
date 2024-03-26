@@ -1,1 +1,0 @@
-Bandit challenges by OverTheWire
