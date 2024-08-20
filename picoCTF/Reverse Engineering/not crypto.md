@@ -133,4 +133,8 @@ I used the last `_puts` command to print the `rsi` register's value (turns out t
 
 [image of binary data](./screenshot.png)
 
-# The actual method 
+# What worked
+
+So, I was pretty close but didn't quite get it. Then I went through a walk-through and came across this beautiful solution. We essentially just set a break-point on the instruction where the two values are being compared. We know for sure one of them is the flag now!
+
+here is the link to the [writeup](https://github.com/Dvd848/CTFs/blob/master/2021_picoCTF_redpwn/not_crypto.md)
