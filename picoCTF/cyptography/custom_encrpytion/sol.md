@@ -36,7 +36,7 @@ So, while decrypting we'll need to do something like this,
 
     dynamic_xor_decrypt(decrypt(encrypted_text, text_key), shared_key)
 
-We can make use of the same keys which is why the encryptions are bad! The script that does this is provided [here](./custom_encryption/custom_encryption.py).
+We can make use of the same keys which is why the encryptions are bad! The script that does this is provided [here](./custom_encryption.py).
 
 The basic explanation is
 1. `encrypt` simply multiplies each value of `ord(i)` for i in `semi_cipher` with shared_key and 311. So, to decrypt we must divide it by `shared_key * 311`.
