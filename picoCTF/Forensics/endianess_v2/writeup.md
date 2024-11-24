@@ -1,0 +1,1 @@
+In this problem we can just reverse the bytes and get the flag. It was pretty evident that we have to do this given the name of the problem.
